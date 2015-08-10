@@ -1,0 +1,19 @@
+<h3>What do you want to ship?</h3>
+<form action="/parcels">
+  <div class="form-group">
+    <label for="length">Length (in inches):</label>
+    <input id="length" name="length" class="form-control" type="text">
+    <label for="width">Width (in inches):</label>
+    <input id="width" name="width" class="form-control" type="text">
+    <label for="height">Height (in inches):</label>
+    <input id="height" name="height" class="form-control" type="text">
+    <label for="weight">Weight (in pounds):</label>
+    <input id="weight" name="weight" class="form-control" type="text">
+
+    <label for="gift_wrap">Add gift wrap?<p>Yes: </label>
+    <input id="yes" name="gift_wrap" type="radio" value = "yes">
+    <label for="gift_wrap">No: </label>
+    <input id="no" name="gift_wrap" type="radio" value = "no">
+  </div>
+  <button type="submit" class="btn-success">submit</button>
+</form>
