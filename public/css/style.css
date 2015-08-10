@@ -2,3 +2,7 @@ body {
   background-color: #FFC0CB;
   font-family: georgia;
 }
+
+.btn-default {
+  background-color: pink;
+}
