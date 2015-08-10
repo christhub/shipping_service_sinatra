@@ -1,17 +1,20 @@
-<h3>What do you want to ship?</h3>
+<h1>Victoria's Coffin</h1>
+<h3>The world's most reliable coffin shipping service</h3>
+<p><i>Trust us with your death!</i></p>
+<hr style="border: 1px solid black">
+<h4>Describe your casket:</h4>
 <form action="/parcels">
   <div class="form-group">
     <label for="length">Length (in inches):</label>
-    <input id="length" name="length" class="form-control" type="text">
+    <input id="length" name="length" class="form-control" type="text" required = "true">
     <label for="width">Width (in inches):</label>
-    <input id="width" name="width" class="form-control" type="text">
+    <input id="width" name="width" class="form-control" type="text" required = "true">
     <label for="height">Height (in inches):</label>
-    <input id="height" name="height" class="form-control" type="text">
+    <input id="height" name="height" class="form-control" type="text" required = "true">
     <label for="weight">Weight (in pounds):</label>
-    <input id="weight" name="weight" class="form-control" type="text">
-
+    <input id="weight" name="weight" class="form-control" type="text" required = "true">
     <label for="gift_wrap">Add gift wrap?<p>Yes: </label>
-    <input id="yes" name="gift_wrap" type="radio" value = "yes">
+    <input id="yes" name="gift_wrap" type="radio" value = "yes" checked = "yes">
     <label for="gift_wrap">No: </label>
     <input id="no" name="gift_wrap" type="radio" value = "no">
   </div>
